@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is my first website
+        </title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 20px;
+                padding: 20px;
+            }
+            header, nav, footer {
+                background: #f4f4f4;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            section {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            I have successfully created my first website, wow!
+        </p>
+        
+        <!-- Ordered List with Roman Numerals -->
+        <ol type="I">
+            <li>Fancy</li>
+            <li>Bernard</li>
+            <li>Chebet</li>
+            <li>Gerald</li>
+        </ol>
+        
+        <!-- Unordered List -->
+        <ul type="circle">
+            <li>Tuei</li>
+            <li>Bett</li>
+            <li>Cheress</li>
+        </ul>
+        
+        <!-- Definition List -->
+        <dl>
+            <dt>FBI</dt>
+            <dd>Federal Bureau of Investigation.</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language.</dd>
+        </dl>
+        
+        <!-- External Image -->
+        <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Beautiful Landscape" width="300" height="200">
+        
+        <!-- Table of 5 Contacts -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Street, Nairobi</td>
+                    <td>+254700123456</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Avenue, Mombasa</td>
+                    <td>+254711234567</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mark Lee</td>
+                    <td>789 Road, Kisumu</td>
+                    <td>+254722345678</td>
+                    <td>mark@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Kim</td>
+                    <td>321 Lane, Eldoret</td>
+                    <td>+254733456789</td>
+                    <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Brown</td>
+                    <td>654 Boulevard, Nakuru</td>
+                    <td>+254744567890</td>
+                    <td>david@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Registration Form -->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br><br>
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select><br><br>
+                
+                <label>Interests:</label><br>
+                <input type="checkbox" id="sports" name="interests" value="Sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="Music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="travel" name="interests" value="Travel">
+                <label for="travel">Travel</label><br><br>
+                
+                <input type="submit" value="Register">
+            </fieldset>
+        </form>
+    </body>
+</html>
